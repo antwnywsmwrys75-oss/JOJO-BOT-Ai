@@ -5,12 +5,12 @@ import sub from './sub.js';
 
 /* =========== Client ========== */
 const client = new Client({
-  phoneNumber: '201116571308', // Bot number
+  phoneNumber: '+964782 301 9895', // Bot number
   prefix: [".", "/", "!"],
   fromMe: false, 
   owners: [
-    { name: "𝐶𝑟𝑎𝑧𝑦", lid: "247579682029763@lid", jid: "15877004085@s.whatsapp.net" },
-    { name: "𝐶𝑟𝑎𝑧𝑦", lid: "221307316789354@lid", jid: "201214057674@s.whatsapp.net" },
+    { name: "𝐶𝑟𝑎𝑧𝑦", lid: "247579682029763@lid", jid: "+201275681011@s.whatsapp.net" },
+    { name: "𝐶𝑟𝑎𝑧𝑦", lid: "221307316789354@lid", jid: "201275681011@s.whatsapp.net" },
   ],
   settings: { noWelcome: false },
   commandsPath: './plugins'
@@ -27,8 +27,8 @@ if (!global.db) {
 /* =========== Config ========== */
 const { config } = client;
 config.info = { 
-  nameBot: "『 𝑮𝒐𝒈𝒐 𖠌 𝑩𝒐𝒕 』", 
-  nameChannel: "『 𝑮𝒐𝒈𝒐 𖠌 𝑩𝒐𝒕 』", 
+  nameBot: "『 𝓐𝓷𝓽𝓸𝓷𝓲𝓸𝓼 𖠌 𝑩𝒐𝒕 』", 
+  nameChannel: "『 𝓐𝓷𝓽𝓸𝓷𝓲𝓸𝓼 𖠌 𝑩𝒐𝒕 』", 
   idChannel: "120363428186936884@newsletter",
   urls: {
     repo: "https://github.com/de𝐶𝑟𝑎𝑧𝑦0/𝑮𝒐𝒈𝒐 𖠌 𝑩𝒐𝒕-AI",
@@ -37,8 +37,8 @@ config.info = {
     support: "https://chat.whatsapp.com/CDa5fFK3mLhHJYMLxHBQey?s=cl&p=a&mlu=1"
   },
   copyright: { 
-    pack: '𝐶𝑟𝑎𝑧𝑦', 
-    author: '𝐶𝑟𝑎𝑧𝑦'
+    pack: '𝓐𝓷𝓽𝓸𝓷𝓲𝓸𝓼', 
+    author: '𝓐𝓷𝓽𝓸𝓷𝓲𝓸𝓼'
   },
   images: [
     "https://i.postimg.cc/9fTmLkpk/file-000000006384720aa0a30e66001c1c85.png",
